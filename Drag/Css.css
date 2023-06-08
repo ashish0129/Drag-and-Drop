@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .left-container {
+    width: 200px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .item {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    cursor: move;
+  }
+  
+  .right-container {
+    width: 200px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .right-container p {
+    text-align: center;
+    color: #999999;
+  }
+  .success-message {
+    color:green;
+   }
